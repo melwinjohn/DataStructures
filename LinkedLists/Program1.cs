@@ -55,15 +55,15 @@ namespace LinkedList
             }
         }
 
-        public static void Main(string[] args)
-        {
-            MyLinkedList myLinkedList = new MyLinkedList();
-            myLinkedList.AddNode(7);
-            myLinkedList.AddNode(12);
-            myLinkedList.AddNode(15);
-            myLinkedList.AddNode(23);
-            myLinkedList.PrintList();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    MyLinkedList myLinkedList = new MyLinkedList();
+        //    myLinkedList.AddNode(7);
+        //    myLinkedList.AddNode(12);
+        //    myLinkedList.AddNode(15);
+        //    myLinkedList.AddNode(23);
+        //    myLinkedList.PrintList();
+        //}
     }
 
 }
