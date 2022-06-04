@@ -46,22 +46,22 @@ namespace FindingTheValue
             }
             return RecursiveFindTheValue(head.next, target);
         }
-        public static void Main(string[] args)
-        {
+        //public static void Main(string[] args)
+        //{
 
-            Node head = new Node(6);
-            Node nodeB = new Node(2);
-            Node nodeC = new Node(5);
-            Node nodeD = new Node(8);
+        //    Node head = new Node(6);
+        //    Node nodeB = new Node(2);
+        //    Node nodeC = new Node(5);
+        //    Node nodeD = new Node(8);
 
-            head.next = nodeB;
-            nodeB.next = nodeC;
-            nodeC.next = nodeD;
+        //    head.next = nodeB;
+        //    nodeB.next = nodeC;
+        //    nodeC.next = nodeD;
 
-            FindingTheValue linkedList = new FindingTheValue();
+        //    FindingTheValue linkedList = new FindingTheValue();
 
-            linkedList.RecursiveFindTheValue(head,16);
+        //    linkedList.RecursiveFindTheValue(head,16);
 
-        }
+        //}
     }
 }
